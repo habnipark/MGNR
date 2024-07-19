@@ -8,7 +8,7 @@ async function sendMessage() {
 
   try {
     // 서버에 POST 요청 보내기
-    const response = await fetch('https://web-mgnr-lyspm2y270b50e83.sel4.cloudtype.app/solve-equation', {
+    const response = await fetch('https://port-0-mgnr-back-lyspm2y270b50e83.sel4.cloudtype.app/solve-equation', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
